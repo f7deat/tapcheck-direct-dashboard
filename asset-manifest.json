@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tapcheck-direct-dashboard/static/css/main.1f5bcee1.chunk.css",
-    "main.js": "/tapcheck-direct-dashboard/static/js/main.1189229d.chunk.js",
-    "main.js.map": "/tapcheck-direct-dashboard/static/js/main.1189229d.chunk.js.map",
+    "main.css": "/tapcheck-direct-dashboard/static/css/main.fff69533.chunk.css",
+    "main.js": "/tapcheck-direct-dashboard/static/js/main.d77c3efe.chunk.js",
+    "main.js.map": "/tapcheck-direct-dashboard/static/js/main.d77c3efe.chunk.js.map",
     "runtime-main.js": "/tapcheck-direct-dashboard/static/js/runtime-main.b214a4e0.js",
     "runtime-main.js.map": "/tapcheck-direct-dashboard/static/js/runtime-main.b214a4e0.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/tapcheck-direct-dashboard/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.b12b1c5b.chunk.js": "/tapcheck-direct-dashboard/static/js/2.b12b1c5b.chunk.js",
     "static/js/2.b12b1c5b.chunk.js.map": "/tapcheck-direct-dashboard/static/js/2.b12b1c5b.chunk.js.map",
     "index.html": "/tapcheck-direct-dashboard/index.html",
-    "precache-manifest.248500b2cb07788574bb6a395ce4b754.js": "/tapcheck-direct-dashboard/precache-manifest.248500b2cb07788574bb6a395ce4b754.js",
+    "precache-manifest.2be2ff3a763f1e95ceec2402844319d5.js": "/tapcheck-direct-dashboard/precache-manifest.2be2ff3a763f1e95ceec2402844319d5.js",
     "service-worker.js": "/tapcheck-direct-dashboard/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/tapcheck-direct-dashboard/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.1f5bcee1.chunk.css.map": "/tapcheck-direct-dashboard/static/css/main.1f5bcee1.chunk.css.map",
+    "static/css/main.fff69533.chunk.css.map": "/tapcheck-direct-dashboard/static/css/main.fff69533.chunk.css.map",
     "static/js/2.b12b1c5b.chunk.js.LICENSE.txt": "/tapcheck-direct-dashboard/static/js/2.b12b1c5b.chunk.js.LICENSE.txt",
     "static/media/apple_store.svg": "/tapcheck-direct-dashboard/static/media/apple_store.8846e039.svg",
     "static/media/google_play.svg": "/tapcheck-direct-dashboard/static/media/google_play.74b7d11f.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.b214a4e0.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.b12b1c5b.chunk.js",
-    "static/css/main.1f5bcee1.chunk.css",
-    "static/js/main.1189229d.chunk.js"
+    "static/css/main.fff69533.chunk.css",
+    "static/js/main.d77c3efe.chunk.js"
   ]
 }
