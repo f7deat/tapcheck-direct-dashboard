@@ -3,6 +3,26 @@ import GooglePlay from '../../images/google_play.svg';
 import AppleStore from '../../images/apple_store.svg';
 
 function Content() {
+
+    const data = [{
+        id: 1,
+        icon: 'fas fa-random',
+        accountNumber: '*** *** *** 1234',
+        date: '22 Jul 2019',
+        status: 1,
+        money: '$50.00',
+        class: 'd-flex rounded-circle p-3 btn-light-primary'
+    },
+    {
+        id: 2,
+        icon: 'fas fa-random',
+        accountNumber: '*** *** *** 5678',
+        date: '22 Jul 2020',
+        status: 2,
+        money: '-$80.00',
+        class: 'd-flex rounded-circle p-3 btn-light-primary'
+    }]
+
     return (
         <div className="content">
             <div className="row">
@@ -72,7 +92,12 @@ function Content() {
                         <div className="p-4">
                             <div className="row">
                                 <div className="col-md-7">
-
+                                    <div className="font-weight-bold mb-3">
+                                        <span className="btn-light-primary rounded-circle px-2 mr-2"><i className="fas fa-dollar-sign"></i></span>
+                                        Tapcheck Repayment Day <i className="fas fa-exclamation-circle text-muted ml-1 text-sm"></i></div>
+                                    <div className="text-sm">
+                                        Next day of changed: <span className="text-success">13 Jun 2020</span>
+                                    </div>
                                 </div>
                                 <div className="col-md-5">
                                     <div className="d-flex">
@@ -90,14 +115,63 @@ function Content() {
                     </div>
                 </div>
                 <div className="col-md-4">
-
+                    <div className="bg-primary rounded h-100 w-100 shadow-sm p-4">
+                        <div className="p-4">
+                            <div className="d-flex">
+                                <div className="flex-grow-1">
+                                    <div className="font-weight-bold text-white h5">
+                                        Upgrade to Tapcheck Direct Pro
+                                    </div>
+                                    <div className="text-sm">
+                                        <a href="#upgrade" className="text-white"><u>You're now in Basic Pack</u></a>
+                                    </div>
+                                </div>
+                                <i className="fas fa-exclamation-circle text-white mt-2"></i>
+                            </div>
+                        </div>
+                        <img alt="Banner" className="img-fluid mt-4" src="https://www.tapcheck.com/assets/images/svg/Home_hero.svg"></img>
+                        <div className="p-4 mt-4">
+                            <button className="btn btn-light btn-lg btn-block text-success">Upgrade Now</button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="card mt-4 shadow-sm border-0">
                 <div className="p-4 border-bottom">
-                    <div className="title">
+                    <div className="title mb-2">
+                        <div className="float-right text-sm mt-2">
+                            <a href="#editDetail" className="text-muted"><u>Edit Detail</u></a>
+                        </div>
                         Recent Transactions
                     </div>
+                    <table className="table">
+                        <tbody>
+                            {
+                                data.map(item => (
+                                    <tr key={item.id}>
+                                        <td className="d-flex">
+                                            <div className={item.class}>
+                                                <i className={item.icon}></i>
+                                            </div>
+                                        </td>
+                                        <td className="p-4">{item.accountNumber}</td>
+                                        <td className="p-4">{item.date}</td>
+                                        <td className="p-4">
+                                            {(() => {
+                                                if (item.status === 1) {
+                                                    return (<span className="text-success">Transfer</span>)
+                                                } else if (item.status === 2) {
+                                                    return (<span className="text-danger">Repayment</span>)
+                                                }
+                                            }
+                                            )()}
+                                        </td>
+                                        <td className="p-4">{item.money}</td>
+                                    </tr>
+                                ))
+                            }
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

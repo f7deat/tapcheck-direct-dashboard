@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Design
 
-[](https://static.dribbble.com/users/1920857/screenshots/14208634/media/47e25d175b4dece2e783445f1bc1664c.png)
+![shot 1](https://static.dribbble.com/users/1920857/screenshots/14208634/media/47e25d175b4dece2e783445f1bc1664c.png)
 
-[](https://static.dribbble.com/users/1920857/screenshots/14208634/media/5e8c4a341f3097e00e425ae56d070e57.png)
+![shot 2](https://static.dribbble.com/users/1920857/screenshots/14208634/media/5e8c4a341f3097e00e425ae56d070e57.png)
 
 Shots by [M A J E D](https://dribbble.com/majed_interactive): [https://dribbble.com/shots/14208634](https://dribbble.com/shots/14208634)
 
