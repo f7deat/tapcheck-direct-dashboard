@@ -92,3 +92,55 @@ body {
   .text-danger {
       color: #e47b84 !important;
   }
+
+  img:hover {
+      transform: scale(1.1);
+  }
+
+  img {
+      transition-duration: 0.5s;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .types-line {
+      display: table;
+      padding: 0;
+      margin: 0 auto;
+      width: 90%;
+  }
+
+  .types-line > li {
+      display: table-cell;
+  }
+
+  .types-line > li > div {
+      position: relative;
+      padding: 18px 5px 5px;
+  }
+
+  .types-line > li > div::before {
+      content: "";
+      display: block;
+      background-color: #eee;
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      top: 4px;
+  }
+
+  .types-line > li > div::after {
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    box-shadow: 0 2px 4px 0 rgba(170, 170, 170, 0.5),
+                0 0 5px 0 rgba(0, 0, 0, 0.1);
+}

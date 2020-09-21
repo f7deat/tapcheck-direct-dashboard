@@ -64,8 +64,8 @@ function Content() {
                                         For iOS and Android
 </div>
                                     <div className="d-flex mb-3">
-                                        <img src={GooglePlay} alt="GooglePlay" className="mr-2" />
-                                        <img src={AppleStore} alt="AppleStore" />
+                                        <img src={GooglePlay} alt="GooglePlay" className="mr-2 cursor-pointer" />
+                                        <img src={AppleStore} alt="AppleStore" className="cursor-pointer" />
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +85,23 @@ function Content() {
                             </div>
                                 </div>
                                 <div className="col-md-6">
-
+                                    <ul className="types-line">
+                                        <li>
+                                            <div>
+                                                39$
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                45$
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                92$
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
