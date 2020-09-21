@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tapcheck-direct-dashboard/precache-manifest.2be2ff3a763f1e95ceec2402844319d5.js"
+  "/tapcheck-direct-dashboard/precache-manifest.22721ffa15188a28e343aa547e612bd7.js"
 );
 
 self.addEventListener('message', (event) => {

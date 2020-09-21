@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3282c058f4bf002f24eeb9029a61d1ea",
+    "revision": "15c31d61c97d86e1947fbb6f974d5cca",
     "url": "/tapcheck-direct-dashboard/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tapcheck-direct-dashboard/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "78532d0173b26f77cdcc",
-    "url": "/tapcheck-direct-dashboard/static/css/main.fff69533.chunk.css"
+    "revision": "f98b76c313f352aa22a2",
+    "url": "/tapcheck-direct-dashboard/static/css/main.5b53b8d7.chunk.css"
   },
   {
     "revision": "4e3e5a1b7cc8bd919905",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tapcheck-direct-dashboard/static/js/2.b12b1c5b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78532d0173b26f77cdcc",
-    "url": "/tapcheck-direct-dashboard/static/js/main.d77c3efe.chunk.js"
+    "revision": "f98b76c313f352aa22a2",
+    "url": "/tapcheck-direct-dashboard/static/js/main.fde101ee.chunk.js"
   },
   {
     "revision": "ac739dfa5ee99825cafb",
